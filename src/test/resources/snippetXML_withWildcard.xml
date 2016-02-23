@@ -18,6 +18,6 @@
      XML unittest cases daily run will offten fail.
      In that case we will exclude it from comparison by giving it value of CompareTest.WILDCARD_TOKEN
      -->
-    <NextReneval>*?*</NextReneval>
+    <NextRenewal>*?*</NextRenewal>
     <LastChangeDate>2016-01-10</LastChangeDate>
 </Contracting>

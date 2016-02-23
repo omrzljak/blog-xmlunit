@@ -26,8 +26,9 @@ import org.xmlunit.xpath.JAXPXPathEngine;
  */
 public class CompareTest {
 
-    public static final String WILDCARD_TOKEN = "*?*";
     private JAXPXPathEngine engine = new JAXPXPathEngine();
+
+    public static final String WILDCARD_TOKEN = "*?*";
 
     /**
      * Difference evaluator that supports wildcard node value.
