@@ -1,0 +1,19 @@
+<Contracting xmlns="http://osmanmrzljak.com/blog/xml">
+    <AddressContract>
+        <Name>Some Thirdparty</Name>
+        <NationalId>12345</NationalId>
+        <Address>Lange Beestenmarkt 84</Address>
+        <Town>Den Haag</Town>
+        <PostalCode>2512 EH</PostalCode>
+        <Country VALUE="NL"></Country>
+        <ContactPoint>Jan Janovic</ContactPoint>
+        <Phone>+31 634567890</Phone>
+        <EMail>never@email.me</EMail>
+        <Fax>+31 546 346 912</Fax>
+    </AddressContract>
+    <DocumentFull>Yes</DocumentFull>
+    <URLDocument>http:\\somehost.me\document\12345</URLDocument>
+    <ValidFrom>2016-03-29</ValidFrom>
+    <NextReneval>2016-04-29</NextReneval>
+    <LastChangeDate>2016-01-10</LastChangeDate>
+</Contracting>

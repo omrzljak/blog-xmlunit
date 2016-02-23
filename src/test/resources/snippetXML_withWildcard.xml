@@ -1,0 +1,23 @@
+<Contracting xmlns="http://osmanmrzljak.com/blog/xml">
+    <AddressContract>
+        <Name>Some Thirdparty</Name>
+        <NationalId>12345</NationalId>
+        <Address>Lange Beestenmarkt 84</Address>
+        <Town>Den Haag</Town>
+        <PostalCode>2512 EH</PostalCode>
+        <Country VALUE="NL"></Country>
+        <ContactPoint>Jan Janovic</ContactPoint>
+        <Phone>+31 634567890</Phone>
+        <EMail>never@email.me</EMail>
+        <Fax>+31 546 346 912</Fax>
+    </AddressContract>
+    <DocumentFull>Yes</DocumentFull>
+    <URLDocument>http:\\somehost.me\document\12345</URLDocument>
+    <ValidFrom>2016-03-29</ValidFrom>
+    <!-- this element is dynamically generated and it changes frequently. That why
+     XML unittest cases daily run will offten fail.
+     In that case we will exclude it from comparison by giving it value of CompareTest.WILDCARD_TOKEN
+     -->
+    <NextReneval>*?*</NextReneval>
+    <LastChangeDate>2016-01-10</LastChangeDate>
+</Contracting>
